@@ -1,0 +1,15 @@
+* Chinese Historical Atlas
+This project provides Chinese historical data extracts based on [[https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86][《中国历史地图集》]] as GeoPackages.
+* Progress
+| Dynasties | Administrative Region |     |     |       |
+|-----------+-----------------------+-----+-----+-------|
+|           | 1st                   | 2nd | 3rd | Ohter |
+| Ming      |                       | Yes |     |       |
+* Attributes
+| Attribute | Description                                         |
+|-----------+-----------------------------------------------------|
+| fid       | The primary key of geometries                       |
+| name_py   | Pinyin of administrative region name                |
+| name_zh   | Simplified Chinese of administrative region name    |
+| year      | The year of administrative region based origin maps |
+| level     | The administrative level of region                  |
